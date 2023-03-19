@@ -5,15 +5,6 @@ import Script from "next/script";
 import Layout from "../../components/layout";
 
 export default function FirstPost() {
-  const YourComponent = () => {
-    <Image
-      src="../../public/festWalaAshish.jpg"
-      height={144}
-      width={144}
-      alt="Profile Picture"
-    />;
-  };
-
   return (
     <Layout>
       <Head>
